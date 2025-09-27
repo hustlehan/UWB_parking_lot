@@ -1,0 +1,28 @@
+[2.930s] Invoking command in '/home/sy/uwb_ws/src/uwb_parser': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_parser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_parser build --build-base /home/sy/uwb_ws/build/uwb_parser/build install --record /home/sy/uwb_ws/build/uwb_parser/install.log --single-version-externally-managed install_data
+[3.340s] running egg_info
+[3.368s] writing ../../build/uwb_parser/uwb_parser.egg-info/PKG-INFO
+[3.369s] writing dependency_links to ../../build/uwb_parser/uwb_parser.egg-info/dependency_links.txt
+[3.370s] writing entry points to ../../build/uwb_parser/uwb_parser.egg-info/entry_points.txt
+[3.370s] writing requirements to ../../build/uwb_parser/uwb_parser.egg-info/requires.txt
+[3.371s] writing top-level names to ../../build/uwb_parser/uwb_parser.egg-info/top_level.txt
+[3.429s] reading manifest file '../../build/uwb_parser/uwb_parser.egg-info/SOURCES.txt'
+[3.431s] writing manifest file '../../build/uwb_parser/uwb_parser.egg-info/SOURCES.txt'
+[3.433s] running build
+[3.433s] running build_py
+[3.433s] copying uwb_parser/uwb_coordinate_parser.py -> /home/sy/uwb_ws/build/uwb_parser/build/lib/uwb_parser
+[3.433s] copying uwb_parser/uwb_navigation_system.py -> /home/sy/uwb_ws/build/uwb_parser/build/lib/uwb_parser
+[3.433s] running install
+[3.443s] running install_lib
+[3.469s] copying /home/sy/uwb_ws/build/uwb_parser/build/lib/uwb_parser/uwb_coordinate_parser.py -> /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser
+[3.471s] copying /home/sy/uwb_ws/build/uwb_parser/build/lib/uwb_parser/uwb_navigation_system.py -> /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser
+[3.471s] byte-compiling /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser/uwb_coordinate_parser.py to uwb_coordinate_parser.cpython-312.pyc
+[3.476s] byte-compiling /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser/uwb_navigation_system.py to uwb_navigation_system.cpython-312.pyc
+[3.483s] running install_data
+[3.483s] running install_egg_info
+[3.514s] removing '/home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser-0.0.0-py3.12.egg-info' (and everything under it)
+[3.517s] Copying ../../build/uwb_parser/uwb_parser.egg-info to /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser-0.0.0-py3.12.egg-info
+[3.518s] running install_scripts
+[3.762s] Installing uwb_coordinate_parser script to /home/sy/uwb_ws/install/uwb_parser/lib/uwb_parser
+[3.763s] Installing uwb_navigation_system script to /home/sy/uwb_ws/install/uwb_parser/lib/uwb_parser
+[3.770s] writing list of installed files to '/home/sy/uwb_ws/build/uwb_parser/install.log'
+[3.926s] Invoked command in '/home/sy/uwb_ws/src/uwb_parser' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_parser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_parser build --build-base /home/sy/uwb_ws/build/uwb_parser/build install --record /home/sy/uwb_ws/build/uwb_parser/install.log --single-version-externally-managed install_data

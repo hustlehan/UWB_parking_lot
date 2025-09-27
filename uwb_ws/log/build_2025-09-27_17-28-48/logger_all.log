@@ -1,0 +1,180 @@
+[0.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.148s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff96323020>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff96322e10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff96322e10>>)
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.223s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sy/uwb_ws'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_parser) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uwb_parser' with type 'ros.ament_python' and name 'uwb_parser'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_tracking) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uwb_tracking' with type 'ros.ament_python' and name 'uwb_tracking'
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sy/uwb_ws/install
+[0.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sy/dev_ws/install
+[0.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sy/microros_ws/install
+[0.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sy/park_ws/install
+[0.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/jazzy
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'catkin_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_parser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.429s] DEBUG:colcon.colcon_core.verb:Building package 'uwb_parser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sy/uwb_ws/build/uwb_parser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sy/uwb_ws/install/uwb_parser', 'merge_install': False, 'path': '/home/sy/uwb_ws/src/uwb_parser', 'symlink_install': False, 'test_result_base': None}
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'uwb_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'uwb_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sy/uwb_ws/build/uwb_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sy/uwb_ws/install/uwb_tracking', 'merge_install': False, 'path': '/home/sy/uwb_ws/src/uwb_tracking', 'symlink_install': False, 'test_result_base': None}
+[0.430s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.431s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sy/uwb_ws/src/uwb_parser' with build type 'ament_python'
+[0.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_parser', 'ament_prefix_path')
+[0.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/hook/ament_prefix_path.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/hook/ament_prefix_path.dsv'
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/hook/ament_prefix_path.sh'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sy/uwb_ws/src/uwb_tracking' with build type 'ament_python'
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_tracking', 'ament_prefix_path')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/hook/ament_prefix_path.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/hook/ament_prefix_path.dsv'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/hook/ament_prefix_path.sh'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.936s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sy/uwb_ws/src/uwb_parser'
+[0.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.487s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sy/uwb_ws/src/uwb_tracking'
+[1.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sy/uwb_ws/src/uwb_tracking': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_tracking build --build-base /home/sy/uwb_ws/build/uwb_tracking/build install --record /home/sy/uwb_ws/build/uwb_tracking/install.log --single-version-externally-managed install_data
+[3.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sy/uwb_ws/src/uwb_parser': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_parser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_parser build --build-base /home/sy/uwb_ws/build/uwb_parser/build install --record /home/sy/uwb_ws/build/uwb_parser/install.log --single-version-externally-managed install_data
+[4.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sy/uwb_ws/src/uwb_tracking' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_tracking build --build-base /home/sy/uwb_ws/build/uwb_tracking/build install --record /home/sy/uwb_ws/build/uwb_tracking/install.log --single-version-externally-managed install_data
+[4.553s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_tracking' for CMake module files
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_tracking' for CMake config files
+[4.562s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_tracking/lib'
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_tracking/bin'
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_tracking/lib/pkgconfig/uwb_tracking.pc'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages'
+[4.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_tracking', 'pythonpath')
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/hook/pythonpath.ps1'
+[4.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/hook/pythonpath.dsv'
+[4.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/hook/pythonpath.sh'
+[4.574s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_tracking/bin'
+[4.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb_tracking)
+[4.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/package.ps1'
+[4.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/package.dsv'
+[4.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/package.sh'
+[4.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/package.bash'
+[4.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking/package.zsh'
+[4.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sy/uwb_ws/install/uwb_tracking/share/colcon-core/packages/uwb_tracking)
+[4.589s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_parser' for CMake module files
+[4.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sy/uwb_ws/src/uwb_parser' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_parser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_parser build --build-base /home/sy/uwb_ws/build/uwb_parser/build install --record /home/sy/uwb_ws/build/uwb_parser/install.log --single-version-externally-managed install_data
+[4.593s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_parser' for CMake config files
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_parser/lib'
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_parser/bin'
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_parser/lib/pkgconfig/uwb_parser.pc'
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages'
+[4.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_parser', 'pythonpath')
+[4.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/hook/pythonpath.ps1'
+[4.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/hook/pythonpath.dsv'
+[4.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/hook/pythonpath.sh'
+[4.609s] Level 1:colcon.colcon_core.environment:checking '/home/sy/uwb_ws/install/uwb_parser/bin'
+[4.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb_parser)
+[4.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/package.ps1'
+[4.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/package.dsv'
+[4.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/package.sh'
+[4.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/package.bash'
+[4.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/package.zsh'
+[4.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sy/uwb_ws/install/uwb_parser/share/colcon-core/packages/uwb_parser)
+[4.624s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.626s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.648s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.735s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sy/uwb_ws/install/local_setup.ps1'
+[4.739s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sy/uwb_ws/install/_local_setup_util_ps1.py'
+[4.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sy/uwb_ws/install/setup.ps1'
+[4.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sy/uwb_ws/install/local_setup.sh'
+[4.753s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sy/uwb_ws/install/_local_setup_util_sh.py'
+[4.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sy/uwb_ws/install/setup.sh'
+[4.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sy/uwb_ws/install/local_setup.bash'
+[4.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sy/uwb_ws/install/setup.bash'
+[4.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sy/uwb_ws/install/local_setup.zsh'
+[4.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sy/uwb_ws/install/setup.zsh'

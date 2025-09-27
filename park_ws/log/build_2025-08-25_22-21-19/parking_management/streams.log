@@ -1,0 +1,41 @@
+[3.374s] Invoking command in '/home/sy/park_ws/parking_management': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/park_ws/build/parking_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/park_ws/install/parking_management/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/parking_management build --build-base /home/sy/park_ws/build/parking_management/build install --record /home/sy/park_ws/build/parking_management/install.log --single-version-externally-managed install_data
+[3.974s] running egg_info
+[3.975s] creating ../build/parking_management/parking_management.egg-info
+[4.003s] writing ../build/parking_management/parking_management.egg-info/PKG-INFO
+[4.004s] writing dependency_links to ../build/parking_management/parking_management.egg-info/dependency_links.txt
+[4.004s] writing entry points to ../build/parking_management/parking_management.egg-info/entry_points.txt
+[4.004s] writing requirements to ../build/parking_management/parking_management.egg-info/requires.txt
+[4.005s] writing top-level names to ../build/parking_management/parking_management.egg-info/top_level.txt
+[4.005s] writing manifest file '../build/parking_management/parking_management.egg-info/SOURCES.txt'
+[4.087s] reading manifest file '../build/parking_management/parking_management.egg-info/SOURCES.txt'
+[4.087s] writing manifest file '../build/parking_management/parking_management.egg-info/SOURCES.txt'
+[4.088s] running build
+[4.089s] running build_py
+[4.089s] creating /home/sy/park_ws/build/parking_management/build
+[4.089s] creating /home/sy/park_ws/build/parking_management/build/lib
+[4.089s] creating /home/sy/park_ws/build/parking_management/build/lib/parking_management
+[4.090s] copying parking_management/parking_management.py -> /home/sy/park_ws/build/parking_management/build/lib/parking_management
+[4.090s] copying parking_management/__init__.py -> /home/sy/park_ws/build/parking_management/build/lib/parking_management
+[4.090s] running install
+[4.099s] running install_lib
+[4.131s] creating /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management
+[4.135s] copying /home/sy/park_ws/build/parking_management/build/lib/parking_management/parking_management.py -> /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management
+[4.135s] copying /home/sy/park_ws/build/parking_management/build/lib/parking_management/__init__.py -> /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management
+[4.135s] byte-compiling /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management/parking_management.py to parking_management.cpython-312.pyc
+[4.156s] byte-compiling /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management/__init__.py to __init__.cpython-312.pyc
+[4.156s] running install_data
+[4.156s] creating /home/sy/park_ws/install/parking_management/share/ament_index
+[4.156s] creating /home/sy/park_ws/install/parking_management/share/ament_index/resource_index
+[4.157s] creating /home/sy/park_ws/install/parking_management/share/ament_index/resource_index/packages
+[4.157s] copying resource/parking_management -> /home/sy/park_ws/install/parking_management/share/ament_index/resource_index/packages
+[4.157s] copying package.xml -> /home/sy/park_ws/install/parking_management/share/parking_management
+[4.157s] creating /home/sy/park_ws/install/parking_management/share/parking_management/launch
+[4.157s] copying launch/parking_system.launch.py -> /home/sy/park_ws/install/parking_management/share/parking_management/launch
+[4.157s] creating /home/sy/park_ws/install/parking_management/share/parking_management/config
+[4.157s] copying config/parking_config.yaml -> /home/sy/park_ws/install/parking_management/share/parking_management/config
+[4.157s] running install_egg_info
+[4.200s] Copying ../build/parking_management/parking_management.egg-info to /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management-1.0.0-py3.12.egg-info
+[4.202s] running install_scripts
+[4.547s] Installing parking_management script to /home/sy/park_ws/install/parking_management/lib/parking_management
+[4.548s] writing list of installed files to '/home/sy/park_ws/build/parking_management/install.log'
+[4.720s] Invoked command in '/home/sy/park_ws/parking_management' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/park_ws/build/parking_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/park_ws/install/parking_management/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/parking_management build --build-base /home/sy/park_ws/build/parking_management/build install --record /home/sy/park_ws/build/parking_management/install.log --single-version-externally-managed install_data

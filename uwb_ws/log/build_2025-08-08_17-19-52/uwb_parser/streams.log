@@ -1,0 +1,36 @@
+[2.269s] Invoking command in '/home/sy/uwb_ws/src/uwb_parser': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_parser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_parser build --build-base /home/sy/uwb_ws/build/uwb_parser/build install --record /home/sy/uwb_ws/build/uwb_parser/install.log --single-version-externally-managed install_data
+[2.680s] running egg_info
+[2.680s] creating ../../build/uwb_parser/uwb_parser.egg-info
+[2.705s] writing ../../build/uwb_parser/uwb_parser.egg-info/PKG-INFO
+[2.705s] writing dependency_links to ../../build/uwb_parser/uwb_parser.egg-info/dependency_links.txt
+[2.705s] writing entry points to ../../build/uwb_parser/uwb_parser.egg-info/entry_points.txt
+[2.705s] writing requirements to ../../build/uwb_parser/uwb_parser.egg-info/requires.txt
+[2.706s] writing top-level names to ../../build/uwb_parser/uwb_parser.egg-info/top_level.txt
+[2.706s] writing manifest file '../../build/uwb_parser/uwb_parser.egg-info/SOURCES.txt'
+[2.763s] reading manifest file '../../build/uwb_parser/uwb_parser.egg-info/SOURCES.txt'
+[2.764s] writing manifest file '../../build/uwb_parser/uwb_parser.egg-info/SOURCES.txt'
+[2.765s] running build
+[2.765s] running build_py
+[2.765s] creating /home/sy/uwb_ws/build/uwb_parser/build
+[2.765s] creating /home/sy/uwb_ws/build/uwb_parser/build/lib
+[2.765s] creating /home/sy/uwb_ws/build/uwb_parser/build/lib/uwb_parser
+[2.765s] copying uwb_parser/__init__.py -> /home/sy/uwb_ws/build/uwb_parser/build/lib/uwb_parser
+[2.765s] running install
+[2.776s] running install_lib
+[2.803s] creating /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser
+[2.803s] copying /home/sy/uwb_ws/build/uwb_parser/build/lib/uwb_parser/__init__.py -> /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser
+[2.804s] byte-compiling /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser/__init__.py to __init__.cpython-312.pyc
+[2.804s] running install_data
+[2.804s] creating /home/sy/uwb_ws/install/uwb_parser/share/ament_index
+[2.804s] creating /home/sy/uwb_ws/install/uwb_parser/share/ament_index/resource_index
+[2.805s] creating /home/sy/uwb_ws/install/uwb_parser/share/ament_index/resource_index/packages
+[2.805s] copying resource/uwb_parser -> /home/sy/uwb_ws/install/uwb_parser/share/ament_index/resource_index/packages
+[2.805s] copying package.xml -> /home/sy/uwb_ws/install/uwb_parser/share/uwb_parser
+[2.805s] creating /home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/launch
+[2.805s] copying launch/uwb_parser.launch.py -> /home/sy/uwb_ws/install/uwb_parser/share/uwb_parser/launch
+[2.805s] running install_egg_info
+[2.839s] Copying ../../build/uwb_parser/uwb_parser.egg-info to /home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages/uwb_parser-0.0.0-py3.12.egg-info
+[2.840s] running install_scripts
+[3.042s] Installing uwb_coordinate_parser script to /home/sy/uwb_ws/install/uwb_parser/lib/uwb_parser
+[3.043s] writing list of installed files to '/home/sy/uwb_ws/build/uwb_parser/install.log'
+[3.161s] Invoked command in '/home/sy/uwb_ws/src/uwb_parser' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_parser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_parser/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_parser build --build-base /home/sy/uwb_ws/build/uwb_parser/build install --record /home/sy/uwb_ws/build/uwb_parser/install.log --single-version-externally-managed install_data

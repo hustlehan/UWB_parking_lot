@@ -1,0 +1,32 @@
+[0.032s] Invoking command in '/home/sy/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sy/park_ws/install/parking_management:/home/sy/park_ws/install/parking_exe:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sy/microros_ws/build/micro_ros_agent -- -j4 -l4
+[0.183s] [ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[9.048s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[12.644s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[13.337s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[20.204s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[27.554s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[29.273s] [100%] Built target micro_ros_agent
+[29.303s] Invoked command in '/home/sy/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sy/park_ws/install/parking_management:/home/sy/park_ws/install/parking_exe:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sy/microros_ws/build/micro_ros_agent -- -j4 -l4
+[29.341s] Invoking command in '/home/sy/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sy/park_ws/install/parking_management:/home/sy/park_ws/install/parking_exe:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sy/microros_ws/build/micro_ros_agent
+[29.369s] -- Install configuration: ""
+[29.369s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[29.370s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[29.370s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[29.370s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[29.370s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[29.371s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[29.371s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[29.371s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[29.371s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[29.371s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[29.372s] -- Installing: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[29.372s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[29.372s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.372s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[29.372s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[29.372s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[29.375s] -- Installing: /home/sy/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[29.379s] -- Set non-toolchain portion of runtime path of "/home/sy/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[29.379s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[29.380s] -- Up-to-date: /home/sy/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[29.384s] Invoked command in '/home/sy/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sy/park_ws/install/parking_management:/home/sy/park_ws/install/parking_exe:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sy/microros_ws/build/micro_ros_agent

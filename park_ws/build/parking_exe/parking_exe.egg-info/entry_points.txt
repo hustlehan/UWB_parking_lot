@@ -1,0 +1,2 @@
+[console_scripts]
+parking_exe_node = parking_exe.parking_exe:main

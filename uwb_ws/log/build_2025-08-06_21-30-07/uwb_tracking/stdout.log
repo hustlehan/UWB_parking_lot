@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/uwb_tracking/uwb_tracking.egg-info
+writing ../../build/uwb_tracking/uwb_tracking.egg-info/PKG-INFO
+writing dependency_links to ../../build/uwb_tracking/uwb_tracking.egg-info/dependency_links.txt
+writing requirements to ../../build/uwb_tracking/uwb_tracking.egg-info/requires.txt
+writing top-level names to ../../build/uwb_tracking/uwb_tracking.egg-info/top_level.txt
+writing manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'
+reading manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'
+writing manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sy/uwb_ws/build/uwb_tracking/build
+creating /home/sy/uwb_ws/build/uwb_tracking/build/lib
+creating /home/sy/uwb_ws/build/uwb_tracking/build/lib/uwb_tracking
+copying uwb_tracking/__init__.py -> /home/sy/uwb_ws/build/uwb_tracking/build/lib/uwb_tracking
+running install
+running install_lib
+creating /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking
+copying /home/sy/uwb_ws/build/uwb_tracking/build/lib/uwb_tracking/__init__.py -> /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking
+byte-compiling /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/sy/uwb_ws/install/uwb_tracking/share/ament_index
+creating /home/sy/uwb_ws/install/uwb_tracking/share/ament_index/resource_index
+creating /home/sy/uwb_ws/install/uwb_tracking/share/ament_index/resource_index/packages
+copying resource/uwb_tracking -> /home/sy/uwb_ws/install/uwb_tracking/share/ament_index/resource_index/packages
+copying package.xml -> /home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking
+running install_egg_info
+Copying ../../build/uwb_tracking/uwb_tracking.egg-info to /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/sy/uwb_ws/build/uwb_tracking/install.log'

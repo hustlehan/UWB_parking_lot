@@ -1,0 +1,23 @@
+[1.468s] Invoking command in '/home/sy/uwb_ws/src/uwb_tracking': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_tracking build --build-base /home/sy/uwb_ws/build/uwb_tracking/build install --record /home/sy/uwb_ws/build/uwb_tracking/install.log --single-version-externally-managed install_data
+[1.884s] running egg_info
+[1.913s] writing ../../build/uwb_tracking/uwb_tracking.egg-info/PKG-INFO
+[1.913s] writing dependency_links to ../../build/uwb_tracking/uwb_tracking.egg-info/dependency_links.txt
+[1.920s] writing requirements to ../../build/uwb_tracking/uwb_tracking.egg-info/requires.txt
+[1.921s] writing top-level names to ../../build/uwb_tracking/uwb_tracking.egg-info/top_level.txt
+[1.981s] reading manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'
+[1.982s] writing manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'
+[1.982s] running build
+[1.982s] running build_py
+[1.982s] copying uwb_tracking/uwb_receiver.py -> /home/sy/uwb_ws/build/uwb_tracking/build/lib/uwb_tracking
+[1.983s] running install
+[1.993s] running install_lib
+[2.032s] copying /home/sy/uwb_ws/build/uwb_tracking/build/lib/uwb_tracking/uwb_receiver.py -> /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking
+[2.033s] byte-compiling /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking/uwb_receiver.py to uwb_receiver.cpython-312.pyc
+[2.035s] running install_data
+[2.035s] copying package.xml -> /home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking
+[2.035s] running install_egg_info
+[2.080s] removing '/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking-0.0.0-py3.12.egg-info' (and everything under it)
+[2.081s] Copying ../../build/uwb_tracking/uwb_tracking.egg-info to /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking-0.0.0-py3.12.egg-info
+[2.085s] running install_scripts
+[2.399s] writing list of installed files to '/home/sy/uwb_ws/build/uwb_tracking/install.log'
+[2.487s] Invoked command in '/home/sy/uwb_ws/src/uwb_tracking' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_tracking build --build-base /home/sy/uwb_ws/build/uwb_tracking/build install --record /home/sy/uwb_ws/build/uwb_tracking/install.log --single-version-externally-managed install_data

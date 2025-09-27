@@ -1,0 +1,63 @@
+# park_ws/src/parking_management/config/parking_config.yaml
+
+parking_management_node:
+  ros__parameters:
+    # WiFi 통신 설정
+    wifi_host: "0.0.0.0"
+    wifi_port: 8888
+    teammate_ip: "192.168.1.100"  # 팀원 노트북 IP
+    teammate_port: 9999
+    
+    # 주차장 맵 설정
+    map_width: 2000
+    map_height: 2000
+    
+    # 아파트 동 입구 좌표
+    building_101_entrance: [1800, 1800]
+    building_102_entrance: [1800, 600]
+    
+    # 차량 입차 지점
+    car_entry_point: [200, 200]
+    
+    # 필수 경유 waypoint
+    mandatory_waypoint: [200, 925]
+    
+    # 회전 waypoint들
+    turn_waypoints:
+      - [200, 1475]
+      - [1475, 1475] 
+      - [1475, 925]
+    
+    # 주차구역별 waypoint 좌표
+    parking_waypoints:
+      1: [150, 1475]
+      2: [450, 1475]
+      3: [700, 1475]
+      4: [900, 1475]
+      5: [1100, 1475]
+      6: [1300, 1475]
+      7: [1475, 1475]   # 7-8번 공유
+      8: [1475, 1475]   # 7-8번 공유
+      9: [1475, 1300]
+      10: [1475, 1100]
+      11: [1475, 925]   # 11-12번 공유
+      12: [1475, 925]   # 11-12번 공유
+      13: [1300, 925]
+      14: [1100, 925]
+      15: [900, 925]
+      16: [700, 925]
+      17: [500, 925]
+    
+    # 금지구역 (기둥 위치)
+    forbidden_zone:
+      bottom_left: [550, 1050]
+      top_right: [1350, 1350]
+    
+    # 시스템 설정
+    update_rate: 10.0  # Hz
+    position_tolerance: 50  # 픽셀
+    waypoint_tolerance: 100  # 픽셀
+    
+    # 로깅 설정
+    log_level: "info"  # debug, info, warn, error
+    enable_detailed_logging: true

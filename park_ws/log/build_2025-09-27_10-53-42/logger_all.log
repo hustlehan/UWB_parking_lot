@@ -1,0 +1,179 @@
+[0.147s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.147s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa63cab70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa63caab0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa63caab0>>)
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sy/park_ws'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_exe) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parking_exe' with type 'ros.ament_python' and name 'parking_exe'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking_management) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parking_management' with type 'ros.ament_python' and name 'parking_management'
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.293s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sy/microros_ws/install
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sy/park_ws/install
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sy/dev_ws/install
+[0.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/jazzy
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_exe' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'parking_exe' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sy/park_ws/build/parking_exe', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sy/park_ws/install/parking_exe', 'merge_install': False, 'path': '/home/sy/park_ws/src/parking_exe', 'symlink_install': False, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'parking_management' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'parking_management' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sy/park_ws/build/parking_management', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sy/park_ws/install/parking_management', 'merge_install': False, 'path': '/home/sy/park_ws/src/parking_management', 'symlink_install': False, 'test_result_base': None}
+[0.366s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.367s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.368s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sy/park_ws/src/parking_exe' with build type 'ament_python'
+[0.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('parking_exe', 'ament_prefix_path')
+[0.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/park_ws/install/parking_exe/share/parking_exe/hook/ament_prefix_path.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sy/park_ws/install/parking_exe/share/parking_exe/hook/ament_prefix_path.dsv'
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/park_ws/install/parking_exe/share/parking_exe/hook/ament_prefix_path.sh'
+[0.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.388s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sy/park_ws/src/parking_management' with build type 'ament_python'
+[0.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('parking_management', 'ament_prefix_path')
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/park_ws/install/parking_management/share/parking_management/hook/ament_prefix_path.ps1'
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sy/park_ws/install/parking_management/share/parking_management/hook/ament_prefix_path.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/park_ws/install/parking_management/share/parking_management/hook/ament_prefix_path.sh'
+[0.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.783s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sy/park_ws/src/parking_exe'
+[0.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.157s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sy/park_ws/src/parking_management'
+[1.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sy/park_ws/src/parking_exe': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/park_ws/build/parking_exe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/park_ws/install/parking_exe/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/parking_exe build --build-base /home/sy/park_ws/build/parking_exe/build install --record /home/sy/park_ws/build/parking_exe/install.log --single-version-externally-managed install_data
+[2.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sy/park_ws/src/parking_management': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/park_ws/build/parking_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/park_ws/install/parking_management/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/parking_management build --build-base /home/sy/park_ws/build/parking_management/build install --record /home/sy/park_ws/build/parking_management/install.log --single-version-externally-managed install_data
+[3.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sy/park_ws/src/parking_management' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/park_ws/build/parking_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/park_ws/install/parking_management/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/parking_management build --build-base /home/sy/park_ws/build/parking_management/build install --record /home/sy/park_ws/build/parking_management/install.log --single-version-externally-managed install_data
+[3.087s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_management' for CMake module files
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_management' for CMake config files
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_management/lib'
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_management/bin'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_management/lib/pkgconfig/parking_management.pc'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_management/lib/python3.12/site-packages'
+[3.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('parking_management', 'pythonpath')
+[3.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/park_ws/install/parking_management/share/parking_management/hook/pythonpath.ps1'
+[3.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sy/park_ws/install/parking_management/share/parking_management/hook/pythonpath.dsv'
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/park_ws/install/parking_management/share/parking_management/hook/pythonpath.sh'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_management/bin'
+[3.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parking_management)
+[3.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/park_ws/install/parking_management/share/parking_management/package.ps1'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sy/park_ws/install/parking_management/share/parking_management/package.dsv'
+[3.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/park_ws/install/parking_management/share/parking_management/package.sh'
+[3.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/park_ws/install/parking_management/share/parking_management/package.bash'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/park_ws/install/parking_management/share/parking_management/package.zsh'
+[3.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sy/park_ws/install/parking_management/share/colcon-core/packages/parking_management)
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_exe' for CMake module files
+[3.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sy/park_ws/src/parking_exe' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/park_ws/build/parking_exe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/park_ws/install/parking_exe/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/parking_exe build --build-base /home/sy/park_ws/build/parking_exe/build install --record /home/sy/park_ws/build/parking_exe/install.log --single-version-externally-managed install_data
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_exe' for CMake config files
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_exe/lib'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_exe/bin'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_exe/lib/pkgconfig/parking_exe.pc'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_exe/lib/python3.12/site-packages'
+[3.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('parking_exe', 'pythonpath')
+[3.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/park_ws/install/parking_exe/share/parking_exe/hook/pythonpath.ps1'
+[3.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sy/park_ws/install/parking_exe/share/parking_exe/hook/pythonpath.dsv'
+[3.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sy/park_ws/install/parking_exe/share/parking_exe/hook/pythonpath.sh'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/sy/park_ws/install/parking_exe/bin'
+[3.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parking_exe)
+[3.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/park_ws/install/parking_exe/share/parking_exe/package.ps1'
+[3.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sy/park_ws/install/parking_exe/share/parking_exe/package.dsv'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/park_ws/install/parking_exe/share/parking_exe/package.sh'
+[3.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/park_ws/install/parking_exe/share/parking_exe/package.bash'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/sy/park_ws/install/parking_exe/share/parking_exe/package.zsh'
+[3.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sy/park_ws/install/parking_exe/share/colcon-core/packages/parking_exe)
+[3.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.182s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.198s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.221s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sy/park_ws/install/local_setup.ps1'
+[3.223s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sy/park_ws/install/_local_setup_util_ps1.py'
+[3.230s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sy/park_ws/install/setup.ps1'
+[3.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sy/park_ws/install/local_setup.sh'
+[3.233s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sy/park_ws/install/_local_setup_util_sh.py'
+[3.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sy/park_ws/install/setup.sh'
+[3.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sy/park_ws/install/local_setup.bash'
+[3.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sy/park_ws/install/setup.bash'
+[3.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sy/park_ws/install/local_setup.zsh'
+[3.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sy/park_ws/install/setup.zsh'

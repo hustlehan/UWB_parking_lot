@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/parking_management/parking_management.egg-info/PKG-INFO
+writing dependency_links to ../build/parking_management/parking_management.egg-info/dependency_links.txt
+writing entry points to ../build/parking_management/parking_management.egg-info/entry_points.txt
+writing requirements to ../build/parking_management/parking_management.egg-info/requires.txt
+writing top-level names to ../build/parking_management/parking_management.egg-info/top_level.txt
+reading manifest file '../build/parking_management/parking_management.egg-info/SOURCES.txt'
+writing manifest file '../build/parking_management/parking_management.egg-info/SOURCES.txt'
+running build
+running build_py
+copying parking_management/parking_management.py -> /home/sy/park_ws/build/parking_management/build/lib/parking_management
+running install
+running install_lib
+copying /home/sy/park_ws/build/parking_management/build/lib/parking_management/parking_management.py -> /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management
+byte-compiling /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management/parking_management.py to parking_management.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management-1.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/parking_management/parking_management.egg-info to /home/sy/park_ws/install/parking_management/lib/python3.12/site-packages/parking_management-1.0.0-py3.12.egg-info
+running install_scripts
+Installing parking_management script to /home/sy/park_ws/install/parking_management/lib/parking_management
+writing list of installed files to '/home/sy/park_ws/build/parking_management/install.log'

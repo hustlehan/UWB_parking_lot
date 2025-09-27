@@ -1,0 +1,3 @@
+[console_scripts]
+uwb_coordinate_parser = uwb_parser.uwb_coordinate_parser:main
+uwb_navigation_system = uwb_parser.uwb_navigation_system:main

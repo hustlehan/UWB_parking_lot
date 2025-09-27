@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (uwb_tracking) JobQueued: {'identifier': 'uwb_tracking', 'dependencies': OrderedDict()}
+[0.001691] (uwb_tracking) JobStarted: {'identifier': 'uwb_tracking'}
+[0.099663] (-) TimerEvent: {}
+[0.200020] (-) TimerEvent: {}
+[0.300351] (-) TimerEvent: {}
+[0.400869] (-) TimerEvent: {}
+[0.501192] (-) TimerEvent: {}
+[0.601514] (-) TimerEvent: {}
+[0.701814] (-) TimerEvent: {}
+[0.802129] (-) TimerEvent: {}
+[0.902461] (-) TimerEvent: {}
+[1.002797] (-) TimerEvent: {}
+[1.103119] (-) TimerEvent: {}
+[1.203442] (-) TimerEvent: {}
+[1.303773] (-) TimerEvent: {}
+[1.404089] (-) TimerEvent: {}
+[1.504399] (-) TimerEvent: {}
+[1.604698] (-) TimerEvent: {}
+[1.705012] (-) TimerEvent: {}
+[1.805370] (-) TimerEvent: {}
+[1.905734] (-) TimerEvent: {}
+[2.006076] (-) TimerEvent: {}
+[2.106508] (-) TimerEvent: {}
+[2.207792] (-) TimerEvent: {}
+[2.276988] (uwb_tracking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uwb_tracking', 'build', '--build-base', '/home/sy/uwb_ws/build/uwb_tracking/build', 'install', '--record', '/home/sy/uwb_ws/build/uwb_tracking/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sy/uwb_ws/src/uwb_tracking', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2320-0-sy_TIME235387', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sy/microros_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/sy', 'OLDPWD': '/home/sy/uwb_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1801', 'SYSTEMD_EXEC_PID': '2320', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3997', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sy/dev_ws/install:/home/sy/microros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sy', 'JOURNAL_STREAM': '8:18857', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sy:@/tmp/.ICE-unix/2289,unix/sy:/tmp/.ICE-unix/2289', 'INVOCATION_ID': '6e458e212a224383aefec5fd1b1aa9d5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.NL3RA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/sy/microros_ws/install/micro_ros_agent:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9a87a8bc-5a0f-4028-877c-422578df65a6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sy/uwb_ws/build/uwb_tracking', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sy/uwb_ws/build/uwb_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/sy/microros_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.307881] (-) TimerEvent: {}
+[2.408206] (-) TimerEvent: {}
+[2.508559] (-) TimerEvent: {}
+[2.608873] (-) TimerEvent: {}
+[2.680924] (uwb_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[2.681472] (uwb_tracking) StdoutLine: {'line': b'creating ../../build/uwb_tracking/uwb_tracking.egg-info\n'}
+[2.705912] (uwb_tracking) StdoutLine: {'line': b'writing ../../build/uwb_tracking/uwb_tracking.egg-info/PKG-INFO\n'}
+[2.706316] (uwb_tracking) StdoutLine: {'line': b'writing dependency_links to ../../build/uwb_tracking/uwb_tracking.egg-info/dependency_links.txt\n'}
+[2.706560] (uwb_tracking) StdoutLine: {'line': b'writing requirements to ../../build/uwb_tracking/uwb_tracking.egg-info/requires.txt\n'}
+[2.706702] (uwb_tracking) StdoutLine: {'line': b'writing top-level names to ../../build/uwb_tracking/uwb_tracking.egg-info/top_level.txt\n'}
+[2.706865] (uwb_tracking) StdoutLine: {'line': b"writing manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'\n"}
+[2.708938] (-) TimerEvent: {}
+[2.762435] (uwb_tracking) StdoutLine: {'line': b"reading manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'\n"}
+[2.763393] (uwb_tracking) StdoutLine: {'line': b"writing manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'\n"}
+[2.763644] (uwb_tracking) StdoutLine: {'line': b'running build\n'}
+[2.763776] (uwb_tracking) StdoutLine: {'line': b'running build_py\n'}
+[2.763908] (uwb_tracking) StdoutLine: {'line': b'creating /home/sy/uwb_ws/build/uwb_tracking/build\n'}
+[2.764026] (uwb_tracking) StdoutLine: {'line': b'creating /home/sy/uwb_ws/build/uwb_tracking/build/lib\n'}
+[2.764128] (uwb_tracking) StdoutLine: {'line': b'creating /home/sy/uwb_ws/build/uwb_tracking/build/lib/uwb_tracking\n'}
+[2.764265] (uwb_tracking) StdoutLine: {'line': b'copying uwb_tracking/__init__.py -> /home/sy/uwb_ws/build/uwb_tracking/build/lib/uwb_tracking\n'}
+[2.764563] (uwb_tracking) StdoutLine: {'line': b'running install\n'}
+[2.774397] (uwb_tracking) StdoutLine: {'line': b'running install_lib\n'}
+[2.800145] (uwb_tracking) StdoutLine: {'line': b'creating /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking\n'}
+[2.800402] (uwb_tracking) StdoutLine: {'line': b'copying /home/sy/uwb_ws/build/uwb_tracking/build/lib/uwb_tracking/__init__.py -> /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking\n'}
+[2.801126] (uwb_tracking) StdoutLine: {'line': b'byte-compiling /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking/__init__.py to __init__.cpython-312.pyc\n'}
+[2.801496] (uwb_tracking) StdoutLine: {'line': b'running install_data\n'}
+[2.801626] (uwb_tracking) StdoutLine: {'line': b'creating /home/sy/uwb_ws/install/uwb_tracking/share/ament_index\n'}
+[2.801728] (uwb_tracking) StdoutLine: {'line': b'creating /home/sy/uwb_ws/install/uwb_tracking/share/ament_index/resource_index\n'}
+[2.801836] (uwb_tracking) StdoutLine: {'line': b'creating /home/sy/uwb_ws/install/uwb_tracking/share/ament_index/resource_index/packages\n'}
+[2.801943] (uwb_tracking) StdoutLine: {'line': b'copying resource/uwb_tracking -> /home/sy/uwb_ws/install/uwb_tracking/share/ament_index/resource_index/packages\n'}
+[2.802081] (uwb_tracking) StdoutLine: {'line': b'copying package.xml -> /home/sy/uwb_ws/install/uwb_tracking/share/uwb_tracking\n'}
+[2.802257] (uwb_tracking) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.809033] (-) TimerEvent: {}
+[2.833206] (uwb_tracking) StdoutLine: {'line': b'Copying ../../build/uwb_tracking/uwb_tracking.egg-info to /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking-0.0.0-py3.12.egg-info\n'}
+[2.834363] (uwb_tracking) StdoutLine: {'line': b'running install_scripts\n'}
+[2.909155] (-) TimerEvent: {}
+[3.009499] (-) TimerEvent: {}
+[3.025737] (uwb_tracking) StdoutLine: {'line': b"writing list of installed files to '/home/sy/uwb_ws/build/uwb_tracking/install.log'\n"}
+[3.109624] (-) TimerEvent: {}
+[3.116140] (uwb_tracking) CommandEnded: {'returncode': 0}
+[3.129795] (uwb_tracking) JobEnded: {'identifier': 'uwb_tracking', 'rc': 0}
+[3.131001] (-) EventReactorShutdown: {}

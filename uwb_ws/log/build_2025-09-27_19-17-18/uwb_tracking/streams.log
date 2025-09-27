@@ -1,0 +1,19 @@
+[3.780s] Invoking command in '/home/sy/uwb_ws/src/uwb_tracking': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_tracking build --build-base /home/sy/uwb_ws/build/uwb_tracking/build install --record /home/sy/uwb_ws/build/uwb_tracking/install.log --single-version-externally-managed install_data
+[4.643s] running egg_info
+[4.681s] writing ../../build/uwb_tracking/uwb_tracking.egg-info/PKG-INFO
+[4.682s] writing dependency_links to ../../build/uwb_tracking/uwb_tracking.egg-info/dependency_links.txt
+[4.689s] writing requirements to ../../build/uwb_tracking/uwb_tracking.egg-info/requires.txt
+[4.690s] writing top-level names to ../../build/uwb_tracking/uwb_tracking.egg-info/top_level.txt
+[4.817s] reading manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'
+[4.830s] writing manifest file '../../build/uwb_tracking/uwb_tracking.egg-info/SOURCES.txt'
+[4.831s] running build
+[4.832s] running build_py
+[4.832s] running install
+[4.843s] running install_lib
+[4.886s] running install_data
+[4.887s] running install_egg_info
+[4.923s] removing '/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking-0.0.0-py3.12.egg-info' (and everything under it)
+[4.927s] Copying ../../build/uwb_tracking/uwb_tracking.egg-info to /home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages/uwb_tracking-0.0.0-py3.12.egg-info
+[4.940s] running install_scripts
+[5.212s] writing list of installed files to '/home/sy/uwb_ws/build/uwb_tracking/install.log'
+[5.347s] Invoked command in '/home/sy/uwb_ws/src/uwb_tracking' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sy/uwb_ws/build/uwb_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sy/uwb_ws/install/uwb_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb_tracking build --build-base /home/sy/uwb_ws/build/uwb_tracking/build install --record /home/sy/uwb_ws/build/uwb_tracking/install.log --single-version-externally-managed install_data
